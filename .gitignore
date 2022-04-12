@@ -1,0 +1,5 @@
+# DAppNodeSDK release directories
+build_*
+
+.idea
+.DS_STORE
