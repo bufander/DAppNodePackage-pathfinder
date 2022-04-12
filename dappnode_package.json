@@ -8,7 +8,7 @@
   "categories": ["Developer tools", "Blockchain"],
   "keywords": ["starknet", "starkware"],
   "links": {
-    "homepage": "https://github.com/bufander/DAppNodePackage-pathfinder/Readme",
+    "homepage": "https://github.com/bufander/DAppNodePackage-pathfinder#readme",
     "api": "http://pathfinder.public.dappnode:9545/"
   },
   "repository": {
