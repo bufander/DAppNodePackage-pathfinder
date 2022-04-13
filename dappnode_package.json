@@ -12,7 +12,7 @@
     "api": "http://pathfinder.public.dappnode:9545/"
   },
   "repository": {
-    "type":"git",
+    "type": "git",
     "url": "https://github.com/bufander/DAppNodePackage-pathfinder.git"
   },
   "bugs": {
