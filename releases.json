@@ -5,5 +5,12 @@
       "dappnode": "Wed, 13 Apr 2022 07:34:23 GMT"
     },
     "link": "https://dappnode.github.io/sdk-publish/?r=pathfinder.public.dappnode.eth&v=0.1.0&h=%2Fipfs%2FQmXbpmhSNzmHJXyfzBZM6qQ13Wp9SitxgS5r8Q22M98onp&d=0x1996E2503503c2318122720463c38e88CA7e981a"
+  },
+  "0.3.0": {
+    "hash": "/ipfs/QmQAjCzXBCvoWn5JLTL16xwULWiVj3JsvJArTydSYeTmva",
+    "uploadedTo": {
+      "dappnode": "Mon, 18 Apr 2022 10:30:39 GMT"
+    },
+    "link": "https://dappnode.github.io/sdk-publish/?r=pathfinder.public.dappnode.eth&v=0.3.0&h=%2Fipfs%2FQmQAjCzXBCvoWn5JLTL16xwULWiVj3JsvJArTydSYeTmva"
   }
 }
