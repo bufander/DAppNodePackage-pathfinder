@@ -1,6 +1,6 @@
 {
   "name": "pathfinder.public.dappnode.eth",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "shortDescription": "StarkNet full node",
   "description": "Wrapper to run a StarkNet full node giving you a safe view into StarkNet.\n\nSee Pathfinder from EQLabs:  https://github.com/eqlabs/pathfinder.",
   "type": "service",
@@ -12,7 +12,7 @@
     "api": "http://pathfinder.public.dappnode:9545/"
   },
   "repository": {
-    "type":"git",
+    "type": "git",
     "url": "https://github.com/bufander/DAppNodePackage-pathfinder.git"
   },
   "bugs": {

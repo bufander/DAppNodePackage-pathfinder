@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo  "Starting node"
-echo "Eth node url $ETH_RPC_URL"
+echo  "Starting Starknet node"
+echo "Ethereum L1 node http(s) url: $PATHFINDER_ETHEREUM_API_URL"
 
-tini -- /usr/local/bin/pathfinder --http-rpc 0.0.0.0:9545 --ethereum.url $ETH_RPC_URL $EXTRA_OPTIONS
+# Arguments are passed through env variables: https://github.com/eqlabs/pathfinder#running-with-docker
+tini -- /usr/local/bin/pathfinder

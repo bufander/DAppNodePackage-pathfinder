@@ -1,11 +1,13 @@
 version: "2"
 fields:
-  - id: ETH_RPC_URL
+  - id: PATHFINDER_ETHEREUM_API_URL
     target:
       type: environment
-      name: ETH_RPC_URL
+      name: PATHFINDER_ETHEREUM_API_URL
     title: Ethereum node
     description: >-
       HTTP(s) URL pointing to your Ethereum L1 node's endpoint.
 
-      For example: http://geth.dappnode:8545
+      For example:
+        a) http://geth.dappnode:8545
+        b) https://goerli.infura.io/v3/<project_id>

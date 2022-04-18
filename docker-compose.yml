@@ -4,14 +4,14 @@ services:
     build:
       context: build/.
       args:
-        UPSTREAM_VERSION: v0.1.6-alpha
-    image: "pathfinder.public.dappnode.eth:0.1.0"
+        UPSTREAM_VERSION: v0.1.8-alpha
+    image: "pathfinder.public.dappnode.eth:0.2.0"
     ports:
       - "9545:9545"
     environment:
       RUST_LOG: info
-      ETH_RPC_URL: "http://geth.dappnode:8545"
-      EXTRA_OPTIONS: ""
+      PATHFINDER_ETHEREUM_API_URL: "http://geth.dappnode:8545"
+      PATHFINDER_HTTP_RPC_ADDRESS: "0.0.0.0:9545"
     volumes:
       - "pathfinder_data:/usr/share/pathfinder/data"
     restart: unless-stopped
