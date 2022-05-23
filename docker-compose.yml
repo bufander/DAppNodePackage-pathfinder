@@ -10,7 +10,7 @@ services:
       - "9545:9545"
     environment:
       RUST_LOG: info
-      PATHFINDER_ETHEREUM_API_URL: "https://mainnet.infura.io/v3/f0129bd0022248a881f714027b33e124"
+      PATHFINDER_ETHEREUM_API_URL: "http://geth.dappnode:8545"
       PATHFINDER_HTTP_RPC_ADDRESS: "0.0.0.0:9545"
     volumes:
       - "pathfinder_data:/usr/share/pathfinder/data"
