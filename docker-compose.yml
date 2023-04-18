@@ -4,7 +4,7 @@ services:
     build:
       context: build
       args:
-        UPSTREAM_VERSION: v0.2.3-alpha
+        UPSTREAM_VERSION: v0.5.3
     image: "pathfinder.public.dappnode.eth:0.4.0"
     ports:
       - "9545:9545"
